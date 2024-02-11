@@ -1,0 +1,301 @@
+<!DOCTYPE html>
+<html lang="en">
+<head> 
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vinsan Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/b67fc58d0d.js" crossorigin="anonymous"></script>
+</head>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+<body>
+    
+    <div id="header" class="fade-in">
+        <div class="container">
+            <nav>
+                <img src="images/F_LOGO.png" class="logo">
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#Certificate">Certifications</a></li>
+                    <li><a href="#Internship">Internships</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>Data Scientist</p>
+                <h1>Hi, I'm <span>Vinay Sankar</span> from India</h1>
+    
+                
+            </div>
+    
+        </div>
+    
+    </div>
+    
+    
+
+<!-----------------------------about---------------------------------->
+
+<div id="about">
+    <div class="container">
+        <div class="row">
+            <div class="about-col-1">
+                <img src="images/vs1.jpg">
+            </div>
+            <div class="about-col-2">
+                <h1 class="sub-title">About Me</h1>
+                <p>
+                    I have a strong passion for Data Science. I'm fascinated by the way data can unveil insights and improve decision-making. My
+                    learning journey has taken me through data analysis, machine learning, and predictive modeling. I'm eager to apply data to
+                    real problems and innovative concepts. I'm excited to take on substantial projects and continue advancing my skills in the
+                    data realm.
+                </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link"onclick="opentab('skills')">Skills</p>           
+                    <p class="tab-links "onclick="opentab('Education')">Education</p>
+                </div>
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li> <span>Programming Languages</span><br>R, C++, SQL, Git, Python (Pandas, Numpy, Scikit-Learn)</li>
+                        <li> <span>Statistics</span><br></li>
+                        <li> <span>Data Wrangling</span><br>Data Cleaning, Data Transformation </li>
+                        <li><span>Machine Learning</span></li>
+                        <li><span>Data visualization</span><br>Tableau, Matplotlib, Seaborn</li>
+                        <li><span>Big Data technologies</span><br>Hadoop Ecosystem, NoSQL Databases</li>
+                        <li><span>Natural Language processing, Deep Learning</span></li>
+                    </ul>
+                </div>
+                <div class="tab-contents"id = "Education">
+                    <ul>
+                        <li> <span>B.Tech - Computer Science and Engineering - VelTech University</span><br>2020 - current , Chennai </li>
+                        <li> <span>Intermediate - Narayana Juniour College</span><br>2018 - 2020, Vijayawada</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-----------------------------PROJECTS-------------------------------------------------->
+<div id="projects">
+    <div class="container">
+        <h1 class="sub-title">My Projects</h1>
+        <div class="projects-list">
+            <div>
+                <i class="fa-solid fa-server"></i>
+                <h2>Chatbot</h2>
+                <p>Developed a specialized chatbot tailored for a college website, enhancing user experience and accessibility. Integrated natural language processing to facilitate seamless interaction for students, providing instant information on courses, events, and important deadlines. Employed web scraping techniques to keep the chatbot's knowledge up-to-date with real-time data from the college website. Implemented personalized features for students, such as schedule reminders and academic resources. This project demonstrates my ability to apply chatbot technology in the educational domain, improving communication and accessibility within a college community.
+                </p>
+                <a href="https://github.com/users/vinay42/projects/4">See More</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-cart-shopping"></i>
+                <h2>Predictive Analysis on Amazon Products</h2>
+                <p>
+                    Executed predictive analysis on Amazon data, leveraging machine learning algorithms to forecast customer behavior and trends. Employed historical sales, user interactions, and market data to build a predictive model, enabling proactive decision-making. Integrated with Amazon's API for real-time data updates, enhancing the accuracy of predictions. Implemented personalized recommendations for users based on their past behaviors, optimizing the user experience. This project showcases my expertise in predictive analytics and its practical application for enhancing e-commerce strategies on platforms like Amazon.           </p>
+                <a href="https://github.com/users/vinay42/projects/2">See more</a>
+            </div>
+            <div>
+                <i class="fa-solid fa-mobile"></i>
+                <h2>Sentiment Analysis on Instagram</h2>
+                <p>
+                    Conducted sentiment analysis on Instagram data to gain insights into user emotions and trends. Developed a robust system using natural language processing and machine learning to classify comments and posts into positive, negative, or neutral sentiments. Integrated with Instagram's API to collect and analyze a diverse dataset, providing valuable feedback on user engagement. Implemented visualizations to showcase sentiment trends over time, enabling businesses and individuals to understand audience sentiment. This project highlights my proficiency in sentiment analysis and its potential applications for social media analytics on platforms like Instagram.
+                </p>
+                <a href="https://github.com/users/vinay42/projects/3">See More</a>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!--------------------------------------------Certifications--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------->
+<div id="Certificate">
+    <div class="container">
+        <h1 class="sub-title">My Certifications</h1>
+        <div class="work-list">
+            <div class="work">
+                <img src="images/ML Certificate.png">
+                <div class="layer">
+                    <h3>Machine Learning Certificate</h3>
+                    <p>Successfully completed Stanford University's Machine Learning course on Coursera by Andrew Ng, gaining knowledge in machine learning concepts and practical implementation</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/E92ZXR2HN4DK"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Google DA internship.png">
+                <div class="layer">
+                    <h3>Google Data Analytics</h3>
+                    <p>Successfully earned the Google Professional Data Analytics Certificate, demonstrating proficiency in data analysis, visualization, and interpretation using tools like Google Analytics, Sheets, and BigQuery</p>
+                    <a href="https://www.coursera.org/account/accomplishments/professional-cert/PWLH82RYMPZC"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/Statistics Certificate.png">
+                <div class="layer">
+                    <h3>Statistics Certificate</h3>
+                    <p>Completed Stanford University's Statistics course on Coursera by Guenther Walther, gaining proficiency in statistical methods and their practical applications.</p>
+                    <a href="https://www.coursera.org/account/accomplishments/verify/34QZCJSXPDPF"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+            <div class="work">
+                <img src="images/tableau Certifiacate.png">
+                <div class="layer">
+                    <h3>Tableau Certificate</h3>
+                    <p>Attained proficiency in data visualization and analytics through the Internshala platform's Tableau certification, acquiring skills in creating impactful visualizations and dashboards for effective data-driven decision-making.</p>
+                    <a href="https://trainings.internshala.com/s/v/937531/cef1a2fe"><i class="fa-solid fa-arrow-up-right-from-square"></i></a>
+                </div>
+            </div>
+        </div>
+        <a href="#"class="btn">See more</a>
+    </div>
+</div>
+<!-----------------------------------------Internships------------------------------------->
+<div id="Internship">
+    <div class="container">
+        <h1 class="sub-title">My Internships</h1>
+        <div class="internship-list">
+            <div class="internship-card">
+                <div class="card-image">
+                    <img src="images/aiml internship.png" alt="Internship 1" onclick="expandImage(this)">
+                    <button class="close-btn" onclick="closeImage(this)">✕</button>
+                </div>
+                <div class="card-content">
+                    <h3>AI - ML Internship</h3>
+                    <p>Successfully completed the AI-ML virtual internship by AWS Academy through AICTE and EDUSkills, gaining hands-on experience in implementing artificial intelligence and machine learning solutions. Applied industry-relevant skills to real-world projects, showcasing practical competence in AWS-based AI-ML technologies.</p>
+                    <a href="https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=844a3199b5566911dcf3b16f1bbe4375" class="btn btn2">See More</a>
+                </div>
+            </div>
+            <!-- Add more internships as needed -->
+            <div class="internship-card">
+                <div class="card-image">
+                    <img src="images/DA internship.png" alt="Internship 1" onclick="expandImage(this)">
+                    <button class="close-btn" onclick="closeImage(this)">✕</button>
+                </div>
+                <div class="card-content">
+                    <h3>Data Analytics Internship</h3>
+                    <p>Successfully completed a virtual internship in Data Analytics offered by AWS Academy through AICTE and EDUSkills, gaining hands-on experience in AWS cloud-based analytics tools. Applied data analytics techniques to solve real-world problems, showcasing practical skills in data interpretation and decision support.</p>
+                    <a href="https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=2ca4083f8aecb111d1def85e7954d8f6" class="btn btn2">See More</a>
+                </div>
+            </div>
+            <div class="internship-card">
+                <div class="card-image">
+                    <img src="images/RPA internship.png" alt="Internship 1" onclick="expandImage(this)">
+                    <button class="close-btn" onclick="closeImage(this)">✕</button>
+                </div>
+                <div class="card-content">
+                    <h3>Robotic Process Automation</h3>
+                    <p>Completed the Robotic Process Automation Virtual Internship offered by Blue Prism University through AICTE and EDUSkills, gaining hands-on experience in automating business processes using cutting-edge technologies. Applied acquired skills in problem-solving and process optimization, showcasing practical expertise in the field of Robotic Process Automation.</p>
+                    <a href="https://aictecert.eduskillsfoundation.org/pages/home/verify.php?cert=a07c78b9be7703ad487aadac2a195732" class="btn btn2">See More</a>
+                </div>
+            </div>    
+        </div>
+    </div>
+</div>
+<div class="modal" onclick="closeImage(this)">
+    <img id="modalImage">
+</div>
+<!------------------------------------------Contact---------------------------------------->
+ <div id="contact">
+    <div class="container">
+        <div class="row">
+            <div class="contact-left">
+                <h1 class="sub-title">Contact Me</h1>
+               <p><i class="fa-solid fa-paper-plane"></i>vinaysankarperna20@gmail.com</p> 
+                <p><i class="fa-solid fa-phone"></i>+91 9398215415</p>
+                <div class="Social-icons">
+                   <a href="https://www.credly.com/users/vinay-sankar-perna"><i class="fa-solid fa-id-badge"></i></a>
+                   <a href="https://twitter.com/thisisvinsan"><i class="fa-brands fa-x-twitter"></i></a>
+                   <a href="https://www.instagram.com/thisisvinsan/"><i class="fa-brands fa-instagram"></i></a>
+                   <a href="https://www.linkedin.com/in/vinay-sankar-perna/"><i class="fa-brands fa-linkedin"></i></a>
+                </div>
+                <a href="images/F_RESUME.pdf" download class ="btn btn2">Download Resume</a>
+            </div>
+            <div class="contact-right">
+                <form name="submit-to-google-sheet">
+                    <input type="text" name="Name" placeholder="Your Name" required>
+                    <input type="email" name="email" placeholder="Your Email" required>
+                    <textarea name="Message" rows="6" placeholder="Your Message "></textarea>
+                    <button type="submit" class="btn btn2">Submit</button>
+                </form>
+                <span id="msg"></span>
+
+            </div>
+        </div>
+    </div>
+    <div class="copyright">
+        <p>Copyright© VINSAN®. Made by Vinay Sankar Perna</p>
+    </div>
+
+ </div>
+
+
+<script>
+
+    var tablinks = document.getElementsByClassName("tab-links");
+    var tabcontents = document.getElementsByClassName("tab-contents");
+    function opentab(tabname){
+        for(tablink of tablinks)
+        {
+            tablink.classList.remove("active-link");
+        }
+        for(tabcontent of tabcontents)
+        {
+            tabcontent.classList.remove("active-tab");
+        }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+    }
+</script>
+
+<script>
+    function expandImage(image) {
+        image.style.transform = "scale(1.2)";
+        image.nextElementSibling.style.display = "block";
+    }
+
+    function closeImage(closeBtn) {
+        var card = closeBtn.parentNode;
+        var image = card.querySelector("img");
+
+        image.style.transform = "scale(1)";
+        closeBtn.style.display = "none";
+    }
+</script>
+<script>
+    function expandImage(image) {
+        var modal = document.querySelector('.modal');
+        var modalImage = document.getElementById('modalImage');
+
+        modalImage.src = image.src;
+        modal.style.display = 'flex';
+        document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+    }
+
+    function closeImage(element) {
+        var modal = document.querySelector('.modal');
+        modal.style.display = 'none';
+        document.body.style.overflow = ''; // Restore scrolling when modal is closed
+    }
+</script>
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbwyYiS8TJl2K2__Qcj272RVBFXEJqWs_g2SpZLZ4QK8w8mrOAiLg32UrVsvHfqtiJvy/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {msg.innerHTML="Message Sent Successfully"
+        setTimeout(function(){
+            msg.innerHTML = ""
+        },5000)
+        form.reset()
+    })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>
+</body>
+</html>
